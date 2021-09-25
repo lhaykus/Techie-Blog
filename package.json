@@ -1,7 +1,6 @@
 {
-  "name": "4thKind",
+  "name": "Techie-Blog",
   "version": "1.0.0",
-  "description": "",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -10,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/uglyb0nes/4thKind.git"
+    "url": "git+https://github.com/uglyb0nes/Techie-Blog.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/uglyb0nes/4thKind/issues"
+    "url": "https://github.com/uglyb0nes/Techie-Blog/issues"
   },
-  "homepage": "https://github.com/uglyb0nes/4thKind#readme",
+  "homepage": "https://github.com/uglyb0nes/Techie-Blog#readme",
   "dependencies": {
     "bcrypt": "^5.0.1",
     "connect-session-sequelize": "^7.1.1",
@@ -31,5 +30,7 @@
     "mysql2": "^2.3.0",
     "nodemon": "^2.0.12",
     "sequelize": "^6.6.5"
-  }
+  },
+  "devDependencies": {},
+  "description": ""
 }
