@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>4thKind</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+</head>
+<div class="wrapper">
+    <header>
+        <h1 class="px-3 py-3 is-size-1 has-text-weigth-bold is-family-monospace has-text-centered"><span style="color:cyan"></span> Techie
+        </h1>
+     
+        <nav class="navbar">
+            {{#if loggedIn}}
+            <a href="/" class="button is-info  is-hoverable navbar-item pt-1">Home</a>
+            <a href="/dashboard" class="button is-info  navbar-item pt-1">Dashboard</a>
+            <a href="/dashboard/create/" class="button is-info  navbar-item is-hoverable pt-1 mr-4"
+                id="createPost">Create Post</a>
+            <button id="logout" class="button is-danger ">Logout</button>
+            {{else}}
+            <a href="/" class="button is-info  is-rounded navbar-item is-hoverable pt-1">Home</a>
+            <a href="/login" class="button is-info  is-rounded">Login</a>
+            {{/if}}
+        </nav>
+    </header>
+</div>
+    <main>
+        {{{ body }}}
+    </main>
+    <footer class="footer rows pb-5 footer1">
+        <div class="row-is-full content has-text-centered">
+            <p>
+                <a class="footerText" href="/">Home</a>{{#if loggedIn}} <span class="neonText" style="font-size: 1.5rem;"></span> <a class="footerText" href="/dashboard/">Dashboard</a>
+                <a class="footerText" href="/dashboard/create/">Create New Post</a>
+                {{else}}
+                <span style="font-size: 1.5rem;"></span> <a class="footerText" href="/login/">Login</a>
+                {{/if}}
+            </p>
+        </div>
+        <div class="row-is-full content has-text-centered">
+            <p>
+                <a class="footerText" href="https://github.com/lhaykus">© DragonWhisperer 2021</a>
+            </p>
+        </div>
+    </footer>
+</div>
+{{#if loggedIn}}
+<script src="/js/logout.js"></script>
+{{/if}}
+</body>
+</html>
