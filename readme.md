@@ -6,16 +6,54 @@ Users are able to create their own accounts where they can create, update and de
 
 - [App](#app)
 - [Built With](#built-with)
-- [Usage](#usage)
 - [Installation](#installation)
+- [Usage](#usage)
+
 
 # App
+![app](./assets/gif.gif)
+![home](./assets/apphome.png)
 
 
 ## Built With
 
-## Usage
+* mySQL
+* Sequelize
+* express-handlebars
+* express.js
+* Javascript ES6
+* Node.js
 
 
 ## Installation
+To use this app 
+* Clone or fork this repositiory
+* *Npm i* to install all the needed packages 
+## Usage
+To start using this blog first set up the database
+Run the following in the termianl.
+```
+mysql -u root -p
+
+```
+Then enter the password
+
+```
+DROP DATABASE IF EXISTS techblog_db;
+CREATE DATABASE techblog_db;
+
+```
+Then, seed the data 
+```
+npm run seed
+```
+Then start the app!
+```
+npm start
+```
+
+
+
+
+
 
