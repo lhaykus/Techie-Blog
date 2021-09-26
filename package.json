@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/uglyb0nes/Techie-Blog.git"
+    "url": "git+https://github.com/lhaykus/Techie-Blog.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/uglyb0nes/Techie-Blog/issues"
+    "url": "https://github.com/lhaykus/Techie-Blog/issues"
   },
-  "homepage": "https://github.com/uglyb0nes/Techie-Blog#readme",
+  "homepage": "https://github.com/lhaykus/Techie-Blog#readme",
   "dependencies": {
     "bcrypt": "^5.0.1",
     "connect-session-sequelize": "^7.1.1",
