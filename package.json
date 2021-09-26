@@ -1,11 +1,11 @@
 {
-  "name": "Techie-Blog",
+  "name": "techie-blog",
   "version": "1.0.0",
+  "description": "A tech blog for developers to write about their knowledge and passion for tech. Following the MCV paradigm, this app uses mySQL and sequelize databases, handlebars for the layout and express.js and API routes.",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js",
-    "seed": "node seeds/index.js"
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -32,6 +32,5 @@
     "nodemon": "^2.0.12",
     "sequelize": "^6.6.5"
   },
-  "devDependencies": {},
-  "description": ""
+  "devDependencies": {}
 }
