@@ -4,6 +4,10 @@ A tech blog for developers to write about their knowledge and passion for tech. 
 
 Users are able to create their own accounts where they can create, update and delete their own posts and comment on other users' posts.
 
+## Links
+Deployed App on Heroku: https://safe-refuge-93093.herokuapp.com/
+Github: https://github.com/lhaykus/Techie-Blog
+
 - [App](#app)
 - [Built With](#built-with)
 - [Installation](#installation)
