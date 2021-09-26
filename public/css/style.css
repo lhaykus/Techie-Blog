@@ -24,10 +24,17 @@ button {
     border: 0;
     padding: 5%;
     font-weight: bold;
-    transition: background-color .1s;
     cursor: pointer;
     border-radius: 5px;
+   
     
+}
+
+.button {
+    background-color: black;
+    color:#25ECD2;
+    border: none;
+
 }
 
 .post-list {
@@ -133,11 +140,11 @@ main {
 .comment {
     padding: 1%;
     margin-bottom: 1%;
+    background-color: rgb(182, 245, 242);
+    text-align: center;
 }
 
-.comment:nth-child(odd) {
-    background-color: #fff5eb;
-}
+
 
 .comment .meta {
     font-size: 90%;
@@ -161,7 +168,7 @@ footer {
 }
 
 .footerText {
-    color: rgb(140, 143, 140);
+    color: cyan;
 }
 
 .card {
@@ -180,13 +187,13 @@ footer {
 }
 
 .card-content {
-    background-color: rgb(211, 206, 206);
+    background-color: white;
     font-size: 1rem;
 }
 
 .titles {
-    color: cyan;
+    color: rgba(10, 184, 184, 0.795);
     font-size: 1.5rem;
-    text-align: center;
+    align-items: center;
 }
 

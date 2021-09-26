@@ -3,7 +3,7 @@ const { Post } = require('../models');
 const postData = [
     {
         title: 'Learned New Technology',
-        post_content: 'Today in class I learned about handlebars and how to use them to create the layout of the webpages',
+        post_content: 'Today in class we learned about Handlebars and how to use them as styling',
         user_id: 1,
     },
     {

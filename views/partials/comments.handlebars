@@ -1,0 +1,15 @@
+<div class="comments">
+    {{#each this}}
+    <section class="comment">
+        <div class="meta">
+            {{user.username}} on {{format_date created_at}}
+        </div>
+        <div class="text">
+            <div>{{comment_text}}</div>
+        </div>
+        <div>
+            <a href="/api/comments/{{id}}"><button class="button mb-5 ml-5 is-info editCom" data-id="{{id}}">Edit Comment</button></div></a>
+        </div>
+    </section>
+    {{/each}}
+</div>

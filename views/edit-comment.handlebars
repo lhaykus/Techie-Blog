@@ -1,0 +1,42 @@
+<article>
+    <a href="/dashboard" class="is-pulled-right"> &larr; Back to Dashboard</a>
+    <h2 class="title mt-5">Edit</h2>
+    <hr>
+    <div class="card mb-6">
+    <header class="card-header card-header-title has-background-grey-lighter">
+
+        <div class="column">
+            <p class=" has-text-primary-light"></p>
+            <a href="/post/{{id}}" class="has-text-black is-capitalized is-pulled-left">{{title}} </a></p>
+        </div>
+
+        <div class="column">
+            <span class=""> </span>
+        </div>
+
+    </header>
+
+    <div class="card-content">
+        <div class="content has-text-justified">
+
+            {{post_content}}
+
+        </div>
+
+    </div>
+    <form class="edit-comment-form">
+        <div>
+            <label for="comment-text">Update Comment:</label>
+            <textarea class="textarea" id="content" name="comment-content" type="text" value="{{comment.comment_text}}">{{comment_text}}</textarea>
+        </div>
+
+        <button type="submit" class="button is-success editCom">Save</button>
+        <button type="button" class="button is-danger delete-com-btn">Delete Comment</button>
+    </form>
+</article>
+
+{{> comments post.comments}}
+
+<script src="/js/edit-comment.js"></script>
+<script src="/js/delete-comment.js"></script>
+<script src="/js/comments.js"></script>
